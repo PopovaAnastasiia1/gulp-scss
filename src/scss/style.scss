@@ -1,0 +1,25 @@
+// Fonts settings:
+@import "fonts";
+$fontFamily: "Roboto", sans-serif;
+
+$minWith: 320;
+$maxWith: 1200;
+$md1: 1199.98;
+$md2: 767.98;
+$md3: 319.98;
+
+$colorTitlle: #4e4e4e;
+
+
+//Basic styles
+body {
+  font-family: $fontFamily;
+}
+//Basic styles
+
+//Files import
+@import "mixins";
+@import "null";
+@import "header";
+@import "content";
+@import "footer";
